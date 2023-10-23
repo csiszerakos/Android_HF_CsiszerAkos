@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="289dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="343dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="340dp"
+        android:width="20dp"
+        android:height="40dp"
+        android:text="Első Activity"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="289dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="343dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="340dp"
+        android:width="20dp"
+        android:height="40dp"
+        android:text="Harmadik Activity"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="385dp"
+        android:width="300dp"
+        android:height="50dp"
+        android:text="Második activity"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.381" />
+</androidx.constraintlayout.widget.ConstraintLayout>
