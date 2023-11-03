@@ -24,12 +24,14 @@ public class MainActivity2 extends ArrayAdapter<String> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        LayoutInflater inflater = context.getLayoutInflater();
-        View view = inflater.inflate(R.layout.activity_main2, null, true);
+        if (convertView == null) {
+            LayoutInflater inflater = context.getLayoutInflater();
+            convertView = inflater.inflate(R.layout.activity_main2, parent, false);
+        }
 
-        ImageView imageView = view.findViewById(R.id.flagImage);
+        ImageView imageView = convertView.findViewById(R.id.flagImage);
         imageView.setImageResource(currencyImage[position]);
 
-        return view;
+        return convertView;
     }
 }
