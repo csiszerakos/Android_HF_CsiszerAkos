@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ContextMenu</string>
+    <string-array name="animals">
+        <item>Lion</item>
+        <item>Tiger</item>
+        <item>Panda</item>
+        <item>Crocodile</item>
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Bear</item>
+        <item>Aligator</item>
+        <item>Chicken</item>
+        <item>Horse</item>
+        <item>Turtle</item>
+        <item>Giraffe</item>
+    </string-array>
+</resources>
